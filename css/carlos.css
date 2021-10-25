@@ -1,0 +1,464 @@
+@font-face{
+	font-family: 'MavenPro';
+	src: url("../fonts/Marven_pro/static/MavenPro-Regular.ttf");
+	font-size: 1em;
+}
+header{
+   width: 100%;
+   height: 190px;
+   background-image: linear-gradient(to bottom, rgb(149, 175, 192), white);
+   padding: 2px;
+}
+header .container{
+   position: relative;
+}
+header #logotipo{
+   position: relative;
+   top: -45px;
+}
+#menu_busca ul{
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	top: 80px;
+	z-index: 4;
+}
+#menu_busca li.search{
+	width: 250px;
+	transform: 1s;
+	transition-timing-function: cubic-bezier(1, .91, 1.30, 1);
+	transition-duration: 1s;
+}
+#menu_busca li.search.ativo{
+	width: 470px;
+}
+#menu_busca ul li.search button{
+   border: none;
+   background: none;
+   position: absolute;
+   right: 1px;
+   z-index: 7;
+}
+#menu_busca ul li{
+	list-style-type: none;
+	margin: 0 1em;
+	font-family: "MavenPro";
+}
+#menu_busca ul li a{
+	color: #353b48;
+	font-size: 20px;
+}
+#menu_opcoes nav{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+}
+#menu_opcoes ul {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	margin: 0px -63px;
+	z-index: 1;
+}
+#menu_opcoes ul li{
+	list-style-type: none;
+	font-family: "MavenPro";
+	margin: 0px 70px;
+}
+#menu_opcoes ul li a{
+	color: #353b48;
+	font-size: 18px;
+}
+section{
+	height: 1190px;
+}
+#banner{
+	width: 100%;
+	list-style-type: none;
+	font-family: "MavenProMavenPro";
+	size: 12px;
+	position: relative;
+	justify-content: center;
+	display: flex;
+}
+#banner h1{
+	position: absolute;
+   justify-content: safe center;
+   margin: 80px 492px auto;
+}
+#banner .row{
+	display: inline-block;
+	margin: 170px 0px;
+	height: 288px;
+}
+#saiba_mais hr{
+	display: flex;
+	border: #ccc;
+	width: 1122px;
+	height: 1px;
+	position: absolute;
+	top: 800px;
+	margin: 110px;
+}
+#saiba_mais .row{
+	width: 100%;
+	position: relative;
+	display: flex;
+	margin-top: 200px;
+}
+#saiba_mais .thumbnails{
+	display: flex;
+	position: absolute;
+	top: 880px;
+   margin: 420px;
+}
+#saiba_mais .thumbnails .item-inner{
+	padding: 10px;
+}
+#saiba_mais .thumbnails .item-inner img{
+	width: 100%;
+} 
+#saiba_mais .src{
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+#saiba_mais .col-md-6{
+	justify-content: center;
+	display: flex;
+}
+#saiba_mais .btn{
+	list-style-type: none;
+	position: absolute;
+	top: 340px;
+}
+footer{
+	margin-top: 60px;
+}
+footer .wrapper{
+	width: 100%;
+}
+footer .cinza-claro{
+	height: 200px;
+	background-color: #576574;
+	width: 100%;
+}
+footer .cinza-escuro{
+	height: 50px;
+	background-color: #222f3e;
+	width: 100%;
+	border-top: #c8d6e5 1px solid;
+}
+footer .pull-xs-left{
+	color: #c8d6e5;
+	font-family: "MavenPro";
+	size: 12px;
+	margin-top: 12px;
+}
+footer .pull-xs-right{
+	width: 100%;
+	text-align: right;
+	color: #c8d6e5;
+	font-family: "MavenPro";
+	size: 10px;
+	margin-top: -40px;
+}
+footer .col-md-2{
+	position: relative;
+	bottom: -15px;
+}
+footer .col-md-10{
+	font-family: "MavenPro";
+	position: relative;
+	bottom: -15px;
+}
+footer .col-post-popular li{
+	margin-top: 25px;
+}
+footer .col-md-10 h2{
+	font-size: 20px;
+	margin: 0 50px;
+	color: #c8d6e5;
+	border-bottom: 1px solid;
+}
+footer .col-md-10 ul{
+	list-style-type: none;
+	font-family: "MavenPro";
+}
+footer .col-post-popular h3{
+	font-size: 20px;
+   margin: -16px 18px;
+	color: #c8d6e5;   
+}
+footer .col-post-popular li time{
+	list-style-type: none;
+	display: flex;
+   font-family: "MavenPro";
+   color: #feca57;
+   margin: 16px 20px;
+}
+footer .col-links-popular h3{
+	list-style-type: none;
+	font-size: 20px;
+	margin: 6px 18px;
+	color: #c8d6e5;
+}
+footer .col-links-popular a{
+	list-style-type: none;
+	color: #c8d6e5;
+	font-family: "MavenPro";
+}
+footer .col-redes-socias li{
+	list-style-type: none;
+	margin: 14px 22px;
+	font-size: 20px;
+}
+footer .col-redes-socias a{
+	list-style-type: none;
+	color: #c8d6e5;
+	font-family: "MavenPro";
+	margin: 0 40px;
+}
+footer .col-redes-socias i{
+	list-style-type: none;
+}
+#call-to-action {
+	margin-top: 100px;
+	width: 100%;
+	margin-right: 0px;
+
+}
+#call-to-action .row{
+	z-index: 9;
+}
+#relogios a{
+	list-style-type: none;
+	font-size: 20px;
+	justify-content: center;
+	font-family: "MavenPro";
+	margin: 0px 85px;
+}
+#call-to-action .login{
+	width: 100px;
+	height: 200px;
+}
+*, *:before, *:after { 
+  margin:0;
+  padding:0;
+  font-family: "MavenPro";
+} 
+/* remover a linha dos links */
+a{
+  text-decoration: none;
+} 
+/* esconder as ancoras da tela */
+a.links{
+  display: none;
+}
+.content{
+  width: 500px;
+  min-height: 560px;    
+  margin: 0px auto;
+  position: relative;   
+}
+h1{
+  font-size: 48px;
+  color: #066a75;
+  padding: 2px 0 10px 0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+h1:after{
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+  background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+}
+p{
+  margin-bottom:15px;
+} 
+.content p:first-child{
+  margin: 0px;
+} 
+label{
+  color: #405c60;
+  position: relative;
+}
+/* placeholder */
+::-webkit-input-placeholder  {
+  color: #bebcbc; 
+  font-style: italic;
+} 
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #bebcbc;
+  font-style: italic;
+}
+input {
+  outline: none;
+}
+ 
+/*estilo dos input,  menos o checkbox */
+input:not([type="checkbox"]){
+  width: 95%;
+  margin-top: 4px;
+  padding: 10px;    
+  border: 1px solid #b2b2b2;
+ 
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+ 
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+ 
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+ 
+/*estilo do botão submit */
+input[type="submit"]{
+  width: 100%!important;
+  cursor: pointer;  
+  background: rgb(61, 157, 179);
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 20px;  
+  border: 1px solid #fff;   
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+ 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+ 
+  transition: all 0.2s linear;
+}
+ 
+/*estilo do botão submit no hover */
+input[type="submit"]:hover{
+  background: #4ab3c6;
+}
+.link{
+  position: relative;
+  background: #e1eaeb;
+  color: #7f7c7c;
+  left: 0px;
+  height: 20px;
+  width: 440px;
+  padding: 17px 30px 20px 30px;
+  font-size: 16px;
+  text-align: right;
+  border-top: 1px solid #dbe5e8;
+ 
+  -webkit-border-radius: 0 0  5px 5px;
+  border-radius: 0 0  5px 5px;
+}
+ 
+.link a {
+  font-weight: bold;
+  background: #f7f8f1;
+  padding: 6px;
+  color: rgb(29, 162, 193);
+  margin-left: 10px;
+  border: 1px solid #cbd518;
+ 
+  -webkit-border-radius: 4px;
+  border-radius: 4px;  
+ 
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s  linear;
+}
+ 
+.link a:hover {
+  color: #39bfd7;
+  background: #f7f7f7;
+  border: 1px solid #4ab3c6;
+}
+#cadastro, 
+#login{
+  position: absolute;
+  top: 0px;
+  width: 100%;   
+  padding: 18px 6% 60px 6%;
+  margin: 0 0 35px 0;
+  background: #f7f7f7;
+  border: 1px solid rgba(147, 184, 189,0.8);
+   
+  -webkit-box-shadow: 5px;
+  border-radius: 5px;
+   
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+ 
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+/* Efeito ao clicar no botão ( Ir para Login ) */
+#paracadastro:target ~ .content #cadastro,
+#paralogin:target ~ .content #login{
+  z-index: 2;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+ 
+  -webkit-animation-delay: .1s;
+  animation-delay: .1s;
+}
+ 
+/* Efeito ao clicar no botão ( Cadastre-se ) */
+#registro:target ~ .content #login,
+#paralogin:target ~ .content #cadastro{
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+/*fadeInLeft*/
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+ 
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+ 
+/*fadeOutLeft*/
+@-webkit-keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+  }
+}
+ 
+@keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+}
